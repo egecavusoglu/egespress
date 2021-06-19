@@ -11,5 +11,5 @@ A boilerplate to scaffold powerful koajs apps for API development.
 - [ ] CORS middleware
 - [ ] Rate limiting middleware (DDos)
 - [ ] Testing
-- [ ] CI/CD options
+- [x] CI/CD options
 - [ ] Add GraphQL endpoint?
