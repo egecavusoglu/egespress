@@ -6,6 +6,7 @@ A boilerplate to scaffold powerful koajs apps for API development.
 
 - [x] Request timer middleware
 - [x] Global Error handling middleware
+- [x] Routing Middleware
 - [ ] Authentication middleware
 - [ ] CORS middleware
 - [ ] Rate limiting middleware (DDos)
