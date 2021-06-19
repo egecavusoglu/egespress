@@ -13,3 +13,4 @@ Opinionated and powerful template for building API's with Koa.
 - [ ] Testing
 - [x] CI/CD options
 - [ ] Add GraphQL endpoint?
+- [ ] Add support for serverless?
