@@ -1,3 +1,5 @@
-const num: number = 12;
+import app from "./app";
+import { PORT } from "./config";
 
-console.log("NUM is " + num);
+console.log(`App is running at PORT: ${PORT}`);
+app.listen(PORT);
