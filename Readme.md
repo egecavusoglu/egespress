@@ -1,6 +1,6 @@
 # egespress
 
-A boilerplate to scaffold powerful koajs apps for API development.
+Opinionated and powerful template for building API's with Koa.
 
 ## Features
 
