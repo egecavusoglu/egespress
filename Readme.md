@@ -2,9 +2,9 @@
 
 A boilerplate to scaffold powerful koajs apps for API development.
 
-## Todos
+## Features
 
-- [ ] Request timer middleware
-- [ ] Global Error handling middleware
+- [x] Request timer middleware
+- [x] Global Error handling middleware
 - [ ] Testing
 - [ ] CI/CD options
