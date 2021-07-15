@@ -1,8 +1,8 @@
-import Koa from "koa";
-import Router from "koa-router";
-import errorHandler from "../error-handler";
-import timer from "../timer";
-import router from "../routes";
+import Koa from 'koa';
+import Router from 'koa-router';
+import errorHandler from '../error-handler';
+import timer from '../timer';
+import router from '../routes';
 
 const app = new Koa();
 

@@ -1,4 +1,4 @@
-import Koa from "koa";
+import Koa from 'koa';
 
 /**
  * Timer utility to log performance of the api routes.
@@ -6,10 +6,10 @@ import Koa from "koa";
  * @param next
  */
 const timer = async (ctx: Koa.Context, next: Koa.Next) => {
-  const start = Date.now();
-  await next();
-  const ms = Date.now() - start;
-  console.log(`${ctx.method} ${ctx.url} took ${ms}ms`);
+    const start = Date.now();
+    await next();
+    const ms = Date.now() - start;
+    console.log(`${ctx.method} ${ctx.url} took ${ms}ms`);
 };
 
 export default timer;
