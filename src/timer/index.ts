@@ -5,7 +5,7 @@ import Koa from 'koa';
  * @param ctx
  * @param next
  */
-const timer = async (ctx: Koa.Context, next: Koa.Next) => {
+const timer = async (ctx: Koa.Context, next: Koa.Next): Promise<void> => {
     const start = Date.now();
     await next();
     const ms = Date.now() - start;

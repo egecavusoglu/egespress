@@ -1,9 +1,9 @@
 import Koa from 'koa';
-import Router from 'koa-router';
 import errorHandler from '../error-handler';
 import timer from '../timer';
 import router from '../routes';
 
+// Init new koa application
 const app = new Koa();
 
 // Timing middleware (important that this is the first middleware to have more accurate measurements.)

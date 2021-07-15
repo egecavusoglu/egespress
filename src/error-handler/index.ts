@@ -5,7 +5,10 @@ import Koa from 'koa';
  * @param ctx Context object
  * @param next Next function executed after this middleware
  */
-const errorHandler = async (ctx: Koa.Context, next: Koa.Next) => {
+const errorHandler = async (
+    ctx: Koa.Context,
+    next: Koa.Next
+): Promise<void> => {
     try {
         await next();
     } catch (err) {

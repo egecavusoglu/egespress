@@ -9,7 +9,8 @@
         "test": "npm run build && jest",
         "build": "npm run clean && tsc",
         "clean": "rm -rf ./dist",
-        "prettify": "npx prettier --write ."
+        "prettify": "npx prettier --write .",
+        "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
     },
     "keywords": [],
     "author": "",
