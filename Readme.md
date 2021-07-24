@@ -1,5 +1,5 @@
 # egespress
-
+[WORK IN PROGRESS]
 Opinionated and powerful template for building API's with Koa.
 
 ## Features
