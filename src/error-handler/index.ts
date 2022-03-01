@@ -1,5 +1,4 @@
 import Koa from 'koa';
-import { IApiError } from './ApiError';
 
 /**
  * This is the global error handler for the server
