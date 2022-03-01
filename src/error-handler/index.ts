@@ -1,4 +1,5 @@
 import Koa from 'koa';
+import { IApiError } from './ApiError';
 
 /**
  * This is the global error handler for the server
@@ -11,7 +12,7 @@ const errorHandler = async (
 ): Promise<void> => {
     try {
         await next();
-    } catch (err) {
+    } catch (err: any) {
         ctx.status = err.statusCode || err.status || 500;
         ctx.body = {
             message: err.message,
