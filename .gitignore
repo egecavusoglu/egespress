@@ -9,3 +9,5 @@ dist/
 
 # dotenv environment variables file
 .env
+
+.parcel-cache/
